@@ -23,6 +23,8 @@ public class Product {
     private String productName;
     private Double productPrice;
 
+    private Integer stock;
+
     public Product(String productName, Double productPrice) {
         this.productName = productName;
         this.productPrice = productPrice;
